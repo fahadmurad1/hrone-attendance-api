@@ -4,7 +4,7 @@ A robust, production-grade **FastAPI** and **MongoDB** service implementing empl
 
 ---
 
-## 🛠 Tech Stack & Requirements
+## Tech Stack & Requirements
 
 - **Runtime:** Python 3.11+
 - **Framework:** FastAPI & Uvicorn
@@ -14,7 +14,7 @@ A robust, production-grade **FastAPI** and **MongoDB** service implementing empl
 
 ---
 
-## 🚀 Setup & How to Run
+## Setup & How to Run
 
 ### 1. Install Dependencies
 ```bash
@@ -36,7 +36,7 @@ uvicorn app.main:app --port 8000
 
 ---
 
-## 🏛 Key Architecture & Engineering Highlights
+## Key Architecture & Engineering Highlights
 
 1. **Single File Constraint:**
    - All models, business rule helpers (R1–R10), database startup hooks, and endpoints reside strictly in [`app/main.py`](file:///c:/Users/lenovo/Downloads/SDT_candidate_kit/candidate_kit/app/main.py).
@@ -67,7 +67,7 @@ uvicorn app.main:app --port 8000
 
 ---
 
-## 📋 Implemented Endpoints
+## Implemented Endpoints
 
 | Category | Method | Path | Description |
 |---|---|---|---|
@@ -86,7 +86,7 @@ uvicorn app.main:app --port 8000
 
 ---
 
-## 📦 Submission Deliverables
+## Submission Deliverables
 
 - `app/main.py`: Complete implementation adhering to OpenAPI contract v2.0.
 - `requirements.txt`: Minimal required dependencies.
